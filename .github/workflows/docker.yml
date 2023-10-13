@@ -14,4 +14,4 @@ jobs:
           run: docker build -t my-image ./docker_actions/
                                                    
         - name: Run Docker container
-          run: docker run my-image python -c "print('Hello, world!')"
+          run: docker run my-image -c "print('Hello, world!')"
