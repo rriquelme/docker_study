@@ -31,4 +31,28 @@
 - not unnecessary files
 - multistage build 
 
-## Labs to practice:
+## Idea of Labs to practice:
+- [ ] Lab 1: install docker and add user to group docker
+- [ ] Lab 2: launch docker and launch hello world
+- [ ] Lab 3: launch docker from systemctl
+- [ ] Lab 4: review where is the file of the settings on docker
+- [ ] Lab 5: resume commands that I use, 
+- [ ] commonly used flags, it d rm restart -memory memory-reservation
+- [ ] Lab 6: interactive container
+- [ ] Lab 7: -- restart unless-stopped / always etc
+- [ ] Lab 8: docker start, view the logs of the container
+- [ ] Lab 9: docker exec
+- [ ] Lab 10: docker cp
+- [ ] Lab 11: rename container -> docker rename
+- [ ] Lab 12: docker stats
+- [ ] Lab 13: curl web address nginx / inspect
+- [ ] Lab 14: docker commit 
+- [ ] Lab 15: create a dockerfile and build, docker diff
+- [ ] Lab 16: create a base image
+- [ ] Lab 17: summary dockerfile layers
+- [ ] Lab 18: docker image inspect
+- [ ] Lab 19: upload to dockerhub
+- [ ] Lab 20 make labs introduction to containers and docker
+
+## Examples of Dockerfiles:
+- 
