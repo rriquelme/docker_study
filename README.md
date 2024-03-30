@@ -1,17 +1,17 @@
 # Docker Study Repo
 ## Useful resources:
-- https://devopswithdocker.com/getting-started/
+- https://devopswithdocker.com/getting-started/ -> Great site to understand the basics
 - https://labs.play-with-docker.com/
 - https://learndocker.online/
 - https://github.com/veggiemonk/awesome-docker
 
 
-## Commands:
-- docker pull: This command is used to pull an image or a repository from a registry. It's the equivalent of "git pull", fetching the latest version of an image.
-- docker images: This command lists all the Docker images that are currently stored in your system.
-- docker inspect: This command is used to get detailed information on Docker objects such as images, containers, volumes, and networks. It returns a JSON object describing the object you're inspecting.
-- docker run: This command is used to create a new container and run a command in it. This is one of the most commonly used Docker commands. It combines the functionality of docker create and docker start.
-- docker build: This command is used to build Docker images from a Dockerfile and a "context". The build process can refer to any of the files in the context. The context is typically set to the current directory (.).
+## Basic commands:
+- *docker pull*: This command is used to pull an image or a repository from a registry. It's the equivalent of "git pull", fetching the latest version of an image.
+- *docker images*: This command lists all the Docker images that are currently stored in your system.
+- *docker inspect*: This command is used to get detailed information on Docker objects such as images, containers, volumes, and networks. It returns a JSON object describing the object you're inspecting.
+- *docker run*: This command is used to create a new container and run a command in it. This is one of the most commonly used Docker commands. It combines the functionality of docker create and docker start.
+- *docker build*: This command is used to build Docker images from a Dockerfile and a "context". The build process can refer to any of the files in the context. The context is typically set to the current directory (.).
 
 ## Dockerfile, basic commands:
 - FROM: This command sets the base image for subsequent instructions. In every valid Dockerfile, FROM is the first instruction.
@@ -30,6 +30,7 @@
 - bundle layers not too much layer
 - not unnecessary files
 - multistage build 
+- https://www.youtube.com/watch?v=wGz_cbtCiEA
 
 ## Idea of Labs to practice:
 - [ ] Lab 1: install docker and add user to group docker
