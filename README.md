@@ -57,3 +57,6 @@
 
 ## Examples of Dockerfiles:
 - 
+
+## Experiments:
+- Wordpress multiple sites to design themes.
