@@ -32,6 +32,32 @@
 - multistage build 
 - https://www.youtube.com/watch?v=wGz_cbtCiEA
 
+## Docker Compose:
+
+- docker compose up
+- docker compose down
+- docker compose build
+- docker compose ps
+- docker-compose logs
+
+## docker-compose.yml, basic structure:
+
+version: '3.8'
+services:
+  service1:
+    image: image_name
+    ports:
+      - "host_port:container_port"
+    volumes:
+      - "host_path:container_path"
+    environment:
+      - ENV_VAR=value
+  service2:
+    image: image_name
+    depends_on:
+      - service1
+
+## Docker Stack
 ## Idea of Labs to practice:
 - [ ] Lab 1: install docker and add user to group docker
 - [ ] Lab 2: launch docker and launch hello world
